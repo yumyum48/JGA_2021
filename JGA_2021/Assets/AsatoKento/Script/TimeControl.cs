@@ -26,10 +26,10 @@ public class TimeControl : MonoBehaviour
 
             else if(gl.localTimeScale == 2)
             {
-                gl.localTimeScale = 3;
+                gl.localTimeScale = -1;
             }
 
-            else if (gl.localTimeScale == 3)
+            else if (gl.localTimeScale == -1)
             {
                 gl.localTimeScale = 1;
             }
