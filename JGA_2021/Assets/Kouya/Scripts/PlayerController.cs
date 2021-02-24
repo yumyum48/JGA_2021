@@ -9,6 +9,17 @@ public class PlayerController : MonoBehaviour
     float xSpeed = 0.0f;
     Animator animator;
 
+    //receiverエラー回避用
+    public void Hit()        //ヒット時のアニメーションイベント（今のところからっぽ。ないとエラーが出る）
+    {
+    }
+    public void FootL()
+    {
+    }
+    public void FootR()
+    {
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
